@@ -1,0 +1,85 @@
+object frmNodeActions: TfrmNodeActions
+  Left = 0
+  Top = 0
+  BorderStyle = ToolWindow
+  Caption = 'Node Actions'
+  ClientHeight = 110
+  ClientWidth = 149
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Padding.Left = 4.000000000000000000
+    Padding.Top = 4.000000000000000000
+    Padding.Right = 4.000000000000000000
+    Padding.Bottom = 4.000000000000000000
+    Size.Width = 149.000000000000000000
+    Size.Height = 110.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = btnEdit
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = btnCancel
+        Row = 1
+      end
+      item
+        Column = 0
+        Control = btnDelete
+        Row = 2
+      end>
+    RowCollection = <
+      item
+        Value = 33.333333333333340000
+      end
+      item
+        Value = 33.333333333333340000
+      end
+      item
+        Value = 33.333333333333340000
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object btnEdit: TButton
+      Align = Client
+      Size.Width = 141.000000000000000000
+      Size.Height = 28.666667938232420000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Edit...'
+      OnClick = btnEditClick
+    end
+    object btnDelete: TButton
+      Align = Client
+      Size.Width = 141.000000000000000000
+      Size.Height = 28.666664123535160000
+      Size.PlatformDefault = False
+      StyleLookup = 'listitemdeletebutton'
+      TabOrder = 0
+      Text = 'Remove from graph'
+      OnClick = btnDeleteClick
+    end
+    object btnCancel: TButton
+      Align = Client
+      Cancel = True
+      Size.Width = 141.000000000000000000
+      Size.Height = 28.666667938232420000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Cancel'
+      OnClick = btnCancelClick
+    end
+  end
+end
