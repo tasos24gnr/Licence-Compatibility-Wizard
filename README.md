@@ -5,7 +5,7 @@ A lightweight, extensible tool for identifying compatibility issues and potentia
 > ⚖️ Make informed decisions before combining open-source components.
 
 ---
-![FOSS Compatibility Graph Example](graph-preview.png)  
+![FOSS Compatibility Graph Example](graph-preview.PNG)  
 
 ## Overview
 
